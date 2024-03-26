@@ -1,0 +1,2 @@
+{"user":"Danis Urmanov","email":"Danis@mail.ru","password":"Danis123","usertype":"Student"}
+{"user":"Danis Urmanov","email":"Danis@mail.ru","password":"Danis123","usertype":"Student"}
