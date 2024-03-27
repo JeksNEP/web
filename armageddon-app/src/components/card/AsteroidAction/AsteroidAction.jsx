@@ -1,4 +1,4 @@
-import styles from "./AsteroidAction.css";
+import styles from "./AsteroidAction.module.css";
 
 
 export const AsteroidAction = () =>{

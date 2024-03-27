@@ -1,4 +1,4 @@
-import styles from "./Card.css"
+import styles from "./Card.module.css"
 import {AsteroidContent} from "./AsteroidContent/AsteroidContent";
 import {AsteroidAction} from "./AsteroidAction/AsteroidAction";
 import {AsteroidImage} from "./AsteroidImage/AsteroidImage";
