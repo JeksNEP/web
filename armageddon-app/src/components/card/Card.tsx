@@ -25,6 +25,5 @@ export const AsteroidCard = (props:AsteroidCardProps) => {
             <AsteroidContent name={name} date={date} distance={distance} size={size} distanceMode={distanceMode}/>
             <AsteroidAction/>
         </div>
-
     </div>
 }

@@ -12,6 +12,7 @@ module.exports = {
         "plugin:jsx-a11y/recommended",
         "plugin:import/recommended",
         "prettier"
+
     ],
     "overrides": [
     ],
