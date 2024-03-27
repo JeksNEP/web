@@ -2,21 +2,16 @@ import styles from "./Card.css"
 import {AsteroidContent} from "./AsteroidContent/AsteroidContent";
 import {AsteroidAction} from "./AsteroidAction/AsteroidAction";
 import {AsteroidImage} from "./AsteroidImage/AsteroidImage";
-export const AsteroidCard = () => {
-    return (<div className={styles.card}>
-        <div className={styles.normCard}></div>
-            <AsteroidImage/>
-            <AsteroidContent/>
-            <AsteroidAction/>
-        </div>)
+export const AsteroidCard = (props) => {
 
-}
-export const DangerAsteroidCard = () => {
-    return (<div className={styles.card}>
-        <div className={styles.cardRed}></div>
-            <AsteroidImage/>
-            <AsteroidContent/>
-            <AsteroidAction/>
-        </div>)
+    const {name, date, distance, size, isDangerous, distanceMode} = props;
 
+    return (<div className={styles.card}>
+        <div className={isDangerous ? styles.cardRed : styles.normCard}>
+            <AsteroidImage/>
+            <AsteroidContent name={name} date={date} distance={distance} size={size} distanceMode={distanceMode}/>
+            <AsteroidAction isDangerous={isDangerous}/>
+        </div>
+
+    </div>)
 }
